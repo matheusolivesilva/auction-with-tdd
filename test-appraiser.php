@@ -20,4 +20,9 @@ $appraiser->evaluates($auction);
 
 $biggestValue = $appraiser->getBiggestValue();
 
-echo $biggestValue;
+$expectedValue = 25300;
+if($biggestValue > $expectedValue) {
+    echo 'TESTE OK';
+} else {
+    echo 'TESTE FALHOU';
+}
