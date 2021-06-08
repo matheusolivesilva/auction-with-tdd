@@ -40,7 +40,7 @@ class Auction
 
     public function finalize()
     {
-        $this->finalize = true;
+        $this->finished = true;
     }
 
     public function isFinished(): bool
