@@ -22,7 +22,7 @@ $biggestValue = $appraiser->getBiggestValue();
 
 $expectedValue = 25300;
 if($biggestValue > $expectedValue) {
-    echo 'TESTE OK';
+    echo 'TEST OK';
 } else {
-    echo 'TESTE FALHOU';
+    echo 'TEST FAILED';
 }
