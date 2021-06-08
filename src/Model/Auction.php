@@ -45,7 +45,7 @@ class Auction
 
     public function isFinished(): bool
     {
-        return $this->isFinished;
+        return $this->finished;
     }
 
     /**
