@@ -1,0 +1,19 @@
+Auction (Alura\Auction\Tests\Model\Auction)
+ [x] Auction should not receive repeated bids
+ [x] Auction should not receive more than 5 bids by user
+ [x] Auction should receive bids with data set "2-bids"
+ [x] Auction should receive bids with data set "1-bid"
+
+Appraiser (Alura\Auction\Tests\Service\Appraiser)
+ [x] Appraiser should find the biggest bids value with data set "random-order"
+ [x] Appraiser should find the biggest bids value with data set "ascending-order"
+ [x] Appraiser should find the biggest bids value with data set "descending-order"
+ [x] Appraiser should find the smallest bids value with data set "random-order"
+ [x] Appraiser should find the smallest bids value with data set "ascending-order"
+ [x] Appraiser should find the smallest bids value with data set "descending-order"
+ [x] Appraiser should search 3 biggest values with data set "random-order"
+ [x] Appraiser should search 3 biggest values with data set "ascending-order"
+ [x] Appraiser should search 3 biggest values with data set "descending-order"
+ [x] Empty auction could not be evaluated
+ [x] Finished auction could not be evaluated
+
